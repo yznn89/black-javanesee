@@ -1,0 +1,180 @@
+:root{
+  --bg:#000;
+  --panel:#111;
+  --border:#2a2a2a;
+  --text:#fff;
+  --muted:#b3b3b3;
+  --muted2:#8a8a8a;
+  --accent:#fff;
+  --accent2:#d9d9d9;
+}
+
+body{
+  background:#000;
+  color:#fff;
+}
+
+.header,
+.chat-input-wrapper,
+.sidebar,
+.account-modal,
+.upload-sheet,
+.toast,
+.app-btn,
+.side-btn,
+.msg.msg-attachment-solo,
+.file-chip,
+.account-info-card{
+  background:#111 !important;
+  color:#fff !important;
+}
+
+.header-chat-title,
+.app-btn-text,
+.msg,
+.msg p,
+.msg strong,
+.msg h1,
+.msg h2,
+.msg h3,
+.msg h4,
+.msg h5,
+.msg h6,
+.side-title,
+.side-user-name,
+.side-history-item-topic,
+.account-info-value,
+.account-modal-title,
+.account-name-input{
+  color:#fff !important;
+}
+
+.device-id-label,
+.device-id-text,
+.msg-meta,
+.account-info-label,
+.side-history-group-label,
+.side-history-label,
+.toast-text,
+.file-chip-name{
+  color:#b3b3b3 !important;
+}
+
+.app-btn,
+.side-btn,
+.file-chip,
+.msg.msg-attachment-solo,
+.chat-input-wrapper,
+.account-info-card,
+.account-name-input,
+.account-copy-btn,
+.sidebar,
+.account-modal,
+.upload-sheet,
+.toast{
+  border-color:#2a2a2a !important;
+}
+
+.chat-input,
+.chat-input::placeholder{
+  color:#fff !important;
+}
+
+.chat-input::placeholder{
+  opacity:.6;
+}
+
+.msg.user{
+  background:#1a1a1a !important;
+  color:#fff !important;
+  border:1px solid #2a2a2a !important;
+}
+
+.messages-container,
+.main-content{
+  background:#000 !important;
+}
+
+.action-btn{
+  background:#111 !important;
+  color:#fff !important;
+  border-color:#2a2a2a !important;
+}
+
+.action-btn.active,
+.send-btn{
+  background:#fff !important;
+  color:#000 !important;
+}
+
+.send-btn svg{
+  color:#000 !important;
+}
+
+.attach-btn svg,
+.chat-action-btn svg,
+.new-chat-btn svg,
+.account-btn,
+.side-close,
+.side-user-dots{
+  color:#fff !important;
+}
+
+.account-btn{
+  background:#1a1a1a !important;
+}
+
+.side-history-item:hover,
+.side-btn:hover,
+.app-btn:hover,
+.account-btn:hover,
+.upload-option:hover,
+.action-btn:hover{
+  background:#1c1c1c !important;
+}
+
+.msg pre,
+.code-shell{
+  background:#0d0d0d !important;
+  border-color:#2a2a2a !important;
+  color:#fff !important;
+}
+
+.msg :not(pre)>code{
+  background:#1a1a1a !important;
+  color:#fff !important;
+  border-color:#333 !important;
+}
+
+.code-shell pre,
+.code-shell pre code{
+  color:#fff !important;
+}
+
+.msg table{
+  border-color:#2a2a2a !important;
+}
+
+.msg thead{
+  background:#151515 !important;
+}
+
+.msg tbody tr:hover{
+  background:#1a1a1a !important;
+}
+
+.msg blockquote{
+  background:#111 !important;
+  border-left-color:#fff !important;
+  color:#ddd !important;
+}
+
+.msg a{
+  color:#fff !important;
+  border-bottom-color:#666 !important;
+}
+
+.msg a:hover{
+  color:#d9d9d9 !important;
+  border-bottom-color:#fff !important;
+}
